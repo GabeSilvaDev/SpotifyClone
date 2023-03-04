@@ -6,7 +6,7 @@ import styles from './index.module.css';
 
 
 export default function Index() {
-    const { selectedMusic, time, setTime, selectMusic, musicList } =
+    const { selectedMusic, selectMusic, musicList } =
         useContext(AppContext);
 
     return <div className={styles['page-container']}>
